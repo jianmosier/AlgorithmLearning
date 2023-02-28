@@ -1,2 +1,2 @@
 # AlgorithmLearning
-Start learn algorithm
+Start learning algorithm
