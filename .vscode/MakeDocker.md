@@ -28,4 +28,15 @@ docker
 dev containers  
 remote explorer  
 wsl  
+#
+## 5.https转ssh
+git remote set-url origin git@github.com:jianmosier/AlgorithmLearning.git  
+git config --global --add safe.directory /com.docker.devenvironments.code  当提示文件夹不安全时可以用这个
+
+ssh-keygen -t ed25519 -C "your_email@example.com"  
+eval "$(ssh-agent -s)"  
+ssh-add ~/.ssh/id_ed25519  
+ssh -T git@github.com
+
+
 
